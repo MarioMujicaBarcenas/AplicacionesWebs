@@ -1,13 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 9/12/2018
- * Time: 3:39 PM
- */
 namespace AppData\Config;
-
-class
+class Autoload
+{
+    public static function run()
     {
          public static function run()
             {
@@ -17,4 +12,10 @@ class
                     require_once ($ruta);123
                 });
             }
+        spl_autoload_register(function ($class)
+        {
+            $ruta=str_replace("\\",'/',$class).'.php';
+            require_once ($ruta);
+        });
     }
+}
