@@ -9,7 +9,7 @@ class Autoload
                 spl_autoload_register(function($class)
                 {
                     $ruta=str_replace("\\",'/',$class).'.php';
-                    require_once ($ruta);123
+                    require_once ($ruta);
                 });
             }
         spl_autoload_register(function ($class)
