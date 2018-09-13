@@ -7,7 +7,7 @@ class inicioController
     }
     public function Habitaciones()
     {
-        
+
     }
     public function Asignar_Productos()
     {
