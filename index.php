@@ -1,5 +1,5 @@
 <?php header("content-Type:text/html;charset=utf-8");?>
-<<?php
+<?php
   define('DS',DIRECTORY_SEPARATOR);
   define('ROOT',realpath(dirname(__FILE__)).DS);
   define('URL',"http://localhost/aplicacionesweb");
@@ -16,9 +16,3 @@
   }
 
  ?>
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 9/12/2018
- * Time: 3:09 PM
- */
