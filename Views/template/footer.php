@@ -16,31 +16,15 @@
          </ul>
        </div>
        <div class="col-6 col-md">
-         <h5>Resources</h5>
+         <h5>Recursos</h5>
          <ul class="list-unstyled text-small">
-           <li><a class="text-muted" href="#">Resource</a></li>
-           <li><a class="text-muted" href="#">Resource name</a></li>
-           <li><a class="text-muted" href="#">Another resource</a></li>
-           <li><a class="text-muted" href="#">Final resource</a></li>
+           <li><a class="text-muted" href="#">Recurso</a></li>
+           <li><a class="text-muted" href="#">  Nombre del recurso</a></li>
+           <li><a class="text-muted" href="#">Otro recurso</a></li>
+           <li><a class="text-muted" href="#">Recurso final</a></li>
          </ul>
        </div>
-       <div class="col-6 col-md">
-         <h5>Resources</h5>
-         <ul class="list-unstyled text-small">
-           <li><a class="text-muted" href="#">Business</a></li>
-           <li><a class="text-muted" href="#">Education</a></li>
-           <li><a class="text-muted" href="#">Government</a></li>
-           <li><a class="text-muted" href="#">Gaming</a></li>
-         </ul>
-       </div>
-       <div class="col-6 col-md">
-         <h5>About</h5>
-         <ul class="list-unstyled text-small">
-           <li><a class="text-muted" href="#">Team</a></li>
-           <li><a class="text-muted" href="#">Locations</a></li>
-           <li><a class="text-muted" href="#">Privacy</a></li>
-           <li><a class="text-muted" href="#">Terms</a></li>
-         </ul>
-       </div>
+      
+
      </div>
    </footer>
