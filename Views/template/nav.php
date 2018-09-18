@@ -1,5 +1,5 @@
-<nav class="bg-dark position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
         <button type="button" class="btn btn-outline-success">TESVB</button>
         <button id="btnGroupDrop1" type="button" class="btn btn-outline-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Jefe de Division
@@ -36,6 +36,5 @@
           <a class="dropdown-item" href="#">Dropdown link</a>
           <a class="dropdown-item" href="#">Dropdown link</a>
         </div>
-
       </div>
     </nav>
