@@ -7,12 +7,12 @@
        <div class="col-6 col-md">
          <h5>Caracteristicas </h5>
          <ul class="list-unstyled text-small">
-           <li><a class="text-muted" href="#">Cool stuff</a></li>
-           <li><a class="text-muted" href="#">Random feature</a></li>
-           <li><a class="text-muted" href="#">Team feature</a></li>
-           <li><a class="text-muted" href="#">Stuff for developers</a></li>
-           <li><a class="text-muted" href="#">Another one</a></li>
-           <li><a class="text-muted" href="#">Last time</a></li>
+           <li><a class="text-muted" href="#">Cosas interesantes</a></li>
+           <li><a class="text-muted" href="#">Característica aleatoria</a></li>
+           <li><a class="text-muted" href="#">Característica del equipo</a></li>
+           <li><a class="text-muted" href="#">Cosas para desarrolladores</a></li>
+           <li><a class="text-muted" href="#"> Otro</a></li>
+           <li><a class="text-muted" href="#"> Ultima vez</a></li>
          </ul>
        </div>
        <div class="col-6 col-md">
