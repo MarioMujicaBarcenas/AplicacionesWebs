@@ -1,16 +1,20 @@
 <?php
   namespace AppData\Controller;
-  use AppData\Model\index;
-  class HomeController{
+  use AppData\Model\Home;
+  class HomeController
+  {
     private $home;
-    function __construct(){
-      $this->home=new index();
+    function __construct()
+    {
+      $this->home=new Home();
     }
-    function index(){
+    function index()
+    {
 
     }
-    function __destruct(){
-      
+    function __destruct()
+    {
+
     }
   }
 
