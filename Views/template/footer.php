@@ -24,7 +24,5 @@
            <li><a class="text-muted" href="#">Recurso final</a></li>
          </ul>
        </div>
-      
-
      </div>
    </footer>
