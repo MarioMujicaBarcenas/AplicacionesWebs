@@ -10,7 +10,7 @@
      Views\Template::header();
      AppData\config\Enrutador::run(new AppData\config\Request());
      Views\Template::nav();
-     Views\Template::main();
+     
      Views\Template::footer();
          # code...
   }
