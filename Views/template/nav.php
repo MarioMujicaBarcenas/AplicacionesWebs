@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top bg-dark">
-    <ul class="nav nav-tabs" style="margin-left:12em;">
+    <ul class="nav nav-tabs" style="margin-left:5em;">
       <li >
         <button class="btn btn-outline-light  my-2 my-sm-0" type="submit">TESVB</button>
       </li>
@@ -22,11 +22,11 @@
       <a class="dropdown-item" href="#">Grupo</a>
       <a class="dropdown-item" href="#">Aprobacion</a>
       </li>
-      <form class="form-inline mt-2 mt-md-0" style="margin-left:1em;">
+      <form class="form-inline mt-2 mt-md-0" style="margin-left:7em;">
             <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline-light  my-2 my-sm-0" type="submit">Buscar</button>
       </form>
-      <form class="form-inline mt-2 mt-md-0" style="margin-left:1em;">
+      <form class="form-inline mt-2 mt-md-0" style="margin-left:7em;">
             <button class="btn btn-outline-light  my-2 my-sm-0" type="submit" href="<?php  ?>">Login</button>
             <button class="btn btn-outline-light  my-2 my-sm-0" style="margin-left:1em; type="submit" href="<?php  ?>">Registrar</button>
       </form>
