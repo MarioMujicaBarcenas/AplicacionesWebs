@@ -2,17 +2,16 @@
 <?php
   define('DS',DIRECTORY_SEPARATOR);
   define('ROOT',realpath(dirname(__FILE__)).DS);
-  define('URL',"http://localhost/aplicacionesweb");
-  require_once("AppData/config/Autoload.php");
+  define('URL',"http://localhost/AplicacionesWeb/");
+  require_once("AppData/Config/Autoload.php");
   \AppData\config\Autoload::run();
   if (!isset($_SERVER["HTPP_X_REQUEST_WITH"])&&(isset($_GET['url'])?!((stristr($_GET['url'],'print'))&&(stristr($_GET['url'],'pdf'))):true))
-   {
      Views\Template::header();
-     Views\Template::nav();
-     AppData\config\Enrutador::run(new AppData\config\Request());
-
+  if (!isset($_SERVER["HTPP_X_REQUEST_WITH"])&&(isset($_GET['url'])?!((stristr($_GET['url'],'print'))&&(stristr($_GET['url'],'pdf'))):true))
+      Views\Template::nav();
+  AppData\Config\Enrutador::run(new AppData\Config\Request());
+  if (!isset($_SERVER["HTPP_X_REQUEST_WITH"])&&(isset($_GET['url'])?!((stristr($_GET['url'],'print'))&&(stristr($_GET['url'],'pdf'))):true))
      Views\Template::footer();
          # code...
-  }
 
  ?>

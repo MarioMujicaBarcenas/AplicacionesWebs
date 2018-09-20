@@ -2,9 +2,10 @@
     namespace AppData\Model;
     class Login
       {
-        function __construct()
+        private $nombre, $contraseña;
+        public function __construct()
         {
-
+            //$this->conexion= new conexion();
         }
         public function set($atributo,$valor)
         {
@@ -18,5 +19,9 @@
         {
 
         }
+        public function index(){
+          
+        }
       }
+
  ?>
