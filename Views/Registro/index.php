@@ -12,39 +12,47 @@
             <h3 class="panel-title">Bienvenido Por Favor Registrese</h3>
           </div>
           <div class="panel-body">
-            <form role="form">
+            <form role="form" action="<?php echo URL ?>Registro">
               <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                  <div class="form-group">
-                    <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
-                  </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                  <div class="form-group">
-                    <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
-                  </div>
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                  <input type="text" name="nombre" id="nombre" class="form-control input-sm" placeholder="Nombre">
                 </div>
               </div>
-
-              <div class="form-group">
-                <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
-              </div>
-
-              <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                   <div class="form-group">
-                    <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+                    <input type="text" name="ap_p" id="ap_p" class="form-control input-sm" placeholder="Apellido Paterno">
                   </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6">
                   <div class="form-group">
-                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+                    <input type="text" name="ap_m" id="ap_m" class="form-control input-sm" placeholder="Apellido Materno">
                   </div>
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                  <input type="text" name="edad" id="edad" class="form-control input-sm" placeholder="Edad">
+                </div>
+                </div>
               </div>
-
-              <input type="submit" value="Register" class="btn btn-info btn-block">
-
+              <div class="">
+              <select class="form-control input-sm" name="Sexo">
+                <option value="">Selecciona</option>
+                <option value="1">Femenino</option>
+                <option value="2">Masculino</option>
+              </select>
+            </div><br>
+              <div class="">
+              <select class="form-control input-sm" name="id_tipo_usuario">
+                <option value="">Selecciona</option>
+                <option value="1">Alumno</option>
+                <option value="2">Docente</option>
+                <option value="3">Jefe</option>
+              </select>
+            </div><br>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <button type="submit" class="btn-success btn-sm">Registrar</button>
+            </div>
             </form>
           </div>
         </div>
