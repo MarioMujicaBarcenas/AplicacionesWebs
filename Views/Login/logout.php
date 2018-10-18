@@ -1,3 +1,3 @@
 <script type="text/javascript">
-    window.location.href = "<?php echo URL?>";
+    window.location.href = "<?php echo URL?>Home";
 </script>
