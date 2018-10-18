@@ -1,3 +1,10 @@
 <div class="container" style="margin-top:5em;">
-<p>Esta es la Pagina de Inicio</p>
+  <script type="text/javascript">
+  $(document).ready(function(){}
+  swal(
+      'Good job!',
+      'You clicked the button!',
+      'success'
+      )
+  </script>
 </div>

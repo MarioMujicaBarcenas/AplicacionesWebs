@@ -19,10 +19,11 @@
          <h5>Recursos</h5>
          <ul class="list-unstyled text-small">
            <li><a class="text-muted" href="#">Recurso</a></li>
-           <li><a class="text-muted" href="#">  Nombre del recurso</a></li>
+           <li><a class="text-muted" href="#">Nombre del recurso</a></li>
            <li><a class="text-muted" href="#">Otro recurso</a></li>
            <li><a class="text-muted" href="#">Recurso final</a></li>
          </ul>
        </div>
      </div>
    </footer>
+   <script type="text/javascript" src="Public/js/sweetalert2.js"></script>

@@ -37,9 +37,14 @@
               </div>
               <div class="">
               <select class="form-control input-sm" name="Sexo">
-                <option value="">Selecciona</option>
-                <option value="1">Femenino</option>
-                <option value="2">Masculino</option>
+                <option value="">Selecciona..</option>
+                <?php  
+                if(isset($datos))
+                {
+                  while($fila)
+                }
+              ?>
+                
               </select>
             </div><br>
               <div class="">

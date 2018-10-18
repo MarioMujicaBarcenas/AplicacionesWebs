@@ -14,7 +14,7 @@
     }
     public function Registrar()
     {
-
+      
     }
     public function guardar()
     {
