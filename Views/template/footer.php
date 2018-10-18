@@ -25,5 +25,6 @@
          </ul>
        </div>
      </div>
+     <script src="<?php echo URL?>Public/js/boostrap.min.js"></script>
+     <script src="<?php echo URL?>Public/js/sweetalert.min.js" type="text/javascript"></script>
    </footer>
-   <script type="text/javascript" src="Public/js/sweetalert2.js"></script>
