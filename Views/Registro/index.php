@@ -36,16 +36,7 @@
                 </div>
               </div>
               <div class="">
-              <select class="form-control input-sm" name="Sexo">
-                <option value="">Selecciona..</option>
-                <?php  
-                if(isset($datos))
-                {
-                  while($fila)
-                }
-              ?>
-                
-              </select>
+
             </div><br>
               <div class="">
               <select class="form-control input-sm" name="id_tipo_usuario">

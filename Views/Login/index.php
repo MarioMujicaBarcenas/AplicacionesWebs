@@ -25,7 +25,7 @@
       <input type="checkbox" value="remember-me">Recordar Contraseña
     </label>
   </div>
-        <button type="submit" name="login-submit" tabindex="6" class="btn btn-success btn-block" href="<?php echo URL; ?>" id="entrar">Entrar</button>
+        <button type="submit" name="login-submit" tabindex="6" class="btn btn-success btn-block" href="<?php echo URL; ?>" id="Registro">Entrar</button>
 </form>
   </div>
   <div class="col-md-4">
