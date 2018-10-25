@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-md-3"></div>
   <div class="col-md-6">
-    <form id="regusr" class="form-signin" action="<?php echo URL ?>Login/guardar" method="post">
+    <form id="regusr" class="form-signin" action="<?php echo URL ?>login/guardar" method="post">
       <br>
       <h1 class="h3 mb-3 font-weight-normal">Registrate</h1>
       <div class="row">
