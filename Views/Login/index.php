@@ -1,9 +1,7 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
+<div class="row bg-light text-dark mx-auto col-md-10" >
+    <div class="col-md-6 mx-auto">
       <form id="form-signin" class="form-signin" method="post" action="<?php echo URL?>Login/Verify">
-        <h1 class="h3 mb-3 font-weight-normal">Por favor, inicia sesión</h1>
+        <h1 class="font-weight-normal">Inicia Sesión</h1>
         <div class="form-group">
           <label for="usuario" >Usuario</label>
           <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Nickname" required>
@@ -14,12 +12,10 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <button class="btn btn-lg btn-primary btn-block" id="signin" type="submit">Entrar</button>
+            <button class="btn btn-lg btn-outline-primary btn-block" id="signin" type="submit">Entrar</button>
           </div>
           <div class="col-md-6">
-            <a class="btn btn-lg btn-danger btn-block" id="signin" type="button" href="<?php echo URL ?>login/registrar">Registrar</a>
+            <a class="btn btn-lg btn-outline-danger btn-block" id="signin" type="button" href="<?php echo URL ?>login/registrar">Registrar</a>
           </div>
-        </div>
       </form>
     </div>
-</div>

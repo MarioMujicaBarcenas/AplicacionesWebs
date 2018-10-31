@@ -1,29 +1,29 @@
-<div class="row">
+<div class="row bg-light text-dark mx-auto col-md-10" >
   <div class="col-md-3"></div>
   <div class="col-md-6">
     <form id="regusr" class="form-signin" action="<?php echo URL ?>login/guardar" method="post">
       <br>
-      <h1 class="h3 mb-3 font-weight-normal">Registrate</h1>
-      <div class="row">
-        <div class="col-md-4 form-group">
+      <h1 class=" font-weight-normal">Registrate</h1>
+
+        <div class="col-md-12 form-group">
           <label for="nombre" class="left">Nombre</label>
           <input class="form-control" type="text" name="nombre" id="nombre" value="" placeholder="Nombre" required>
         </div>
-        <div class="col-md-4 form-group">
+        <div class="col-md-12 form-group">
           <label for="ap_p">Apellido Paterno</label>
           <input class="form-control" type="text" name="ap_p" id="ap_p" value="" placeholder="Apellido Paterno" required>
         </div>
-        <div class="col-md-4 form-group">
+        <div class="col-md-12 form-group">
           <label for="ap_m">Apellido Materno</label>
           <input class="form-control" type="text" name="ap_m" id="ap_m" value="" placeholder="Apellido Materno" required>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 form-group">
+
+
+        <div class="col-md-12 form-group">
           <label for="edad">Edad</label>
-          <input class="form-control" type="number" name="edad" value="">
+          <input class="form-control" type="number" name="edad" value="" placeholder="Edad">
         </div>
-        <div class="col-md-6 form-group">
+        <div class="col-md-12 form-group">
           <label for="id_sexo">Sexo</label>
           <select class="form-control" name="id_sexo">
             <option value="">Selecciona...</option>
@@ -36,17 +36,17 @@
             ?>
           </select>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 form-group">
+
+
+        <div class="col-md-12 form-group">
           <label for="nickname">Nickname</label>
-          <input class="form-control" type="text" name="nickname" value="">
+          <input class="form-control" type="text" name="nickname" value="" placeholder="Nickname">
         </div>
-        <div class="col-md-6 form-group">
+        <div class="col-md-12 form-group">
           <label for="contraseña">Contraseña</label>
-          <input class="form-control" type="password" name="contraseña" value="">
+          <input class="form-control" type="password" name="contraseña" value="" placeholder="Contraseña">
         </div>
-      </div>
+
       <div class="form-group">
         <label for="id_tipo_usuario">Tipo de Usuario</label>
         <select class="form-control" name="id_tipo_usuario">
@@ -61,7 +61,9 @@
         </select>
       </div>
       <br>
-      <button type="submit" class="btn btn-lg btn-success btn-block">Guardar</button>
+      <button type="submit" class="btn btn-lg btn btn-outline-success btn-block">Guardar</button>
+      <br>
+      <br>
     </form>
   </div>
 </div>

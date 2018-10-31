@@ -1,14 +1,14 @@
 
 <div class="container">
-  
+
 </div>
 <?php
 if(!isset($_SESSION['id_tipo_usuario'])){ ?>
   <script type="text/javascript">
     $(document).ready(function(){
       swal({
-        title: "Aún no haz iniciado sesión",
-        text: "Ingresar ahora?",
+        title: "No Haz Iniciado Sesión",
+        text: "Desea Ingresar Ahora",
         type: "warning",
         closeOnConfirm: false,
         closeOnCancel: true,
