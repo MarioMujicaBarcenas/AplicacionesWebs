@@ -13,7 +13,7 @@
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="#">Ver</a>
           <?php if($_SESSION['id_tipo_usuario']==2 or $_SESSION['id_tipo_usuario']==1){ ?>
-          <a class="dropdown-item" href="#">Acentar</a>
+          <a class="dropdown-item" href="<?php echo URL ?>Calificaciones/Acentar">Acentar</a>
           <a class="dropdown-item" href="#">Modificar</a>
         <?php } ?>
         </div>
