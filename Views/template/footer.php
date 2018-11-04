@@ -1,5 +1,6 @@
 <footer class="footer">
   <div class="container">
+   <span class="text-muted">Place sticky footer content here.</span>
   </div>
 </footer>
 <!-- <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script> -->
