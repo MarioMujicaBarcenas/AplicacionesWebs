@@ -4,7 +4,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Product example for Bootstrap</title>
+    <title>Calificaciones TESVB</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo URL ?>Public/css/bootstrap.min.css" rel="stylesheet">

@@ -1,5 +1,8 @@
 <div class="container">
-  <div class="row">
+  <br>
+  <br>
+  <br>
+  
     <div class="col-md-4"></div>
     <div class="col-md-4">
       <form id="form-signin" class="form-signin" method="post" action="<?php echo URL?>Login/Verify">
@@ -12,14 +15,12 @@
           <label for="contraseña" >Contraseña</label>
           <input type="password" id="contraseña" name="contraseña" class="form-control" placeholder="Contraseña" required>
         </div>
-        <div class="row">
           <div class="col-md-6">
-            <button class="btn btn-lg btn-primary btn-block" id="signin" type="submit">Entrar</button>
+            <button class="btn btn-lg btn-primary btn-block btn-outline" id="signin" type="submit">Entrar</button>
           </div>
           <div class="col-md-6">
             <a class="btn btn-lg btn-danger btn-block" id="signin" type="button" href="<?php echo URL ?>login/registrar">Registrar</a>
           </div>
-        </div>
       </form>
     </div>
 </div>
