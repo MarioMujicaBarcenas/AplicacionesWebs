@@ -1,10 +1,11 @@
 <div class="container">
+  <br><br><br>
   <?php
   if(mysqli_num_rows($datos)>0){
   ?>
-  <h3>Aplicaciones Web 702</h3>
-    <table class="table table-striped">
-      <thead class="thead-dark">
+  <h3>Lista de Alumnos</h3>
+    <table class="table">
+      <thead class="thead-light">
         <tr>
           <th scope="col">Nombre del alumno</th>
           <th scope="col"></th>

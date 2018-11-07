@@ -2,7 +2,31 @@
   <div class="col-md-3"></div>
   <div class="col-md-6">
     <form id="regusr" class="form-signin" action="<?php echo URL ?>login/guardar" method="post">
-      <br>
+      <br><br><br>
+      <?php
+      { ?>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            setTimeout(function(){
+              swal({
+                title: "Verifica Los Datos",
+                text: "Llena Correctamente para Acentar",
+                type: "info",
+                closeOnConfirm: false,
+                closeOnCancel: true,
+                showCancelButton: true,
+                cancelButtonClass: "btn-danger",
+                confirmButtonClass: "btn-success",
+              },
+              function(isConfirm){
+                if(isConfirm)
+                  window.location.href = "<?php echo URL ?>login";
+              })
+            })
+          })
+        </script> <?php
+      }
+      ?>
       <h1 class=" font-weight-normal">Acentar Calificacion</h1>
 
 
@@ -49,26 +73,3 @@
     </form>
   </div>
 </div>
-<?php
-if(!isset($_SESSION['id_tipo_usuario'])){ ?>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      swal({
-        title: "LLena con Mucha Atencion",
-        text: "Verifica los Datos Antes de Acentar",
-        type: "warning",
-        closeOnConfirm: false,
-        closeOnCancel: true,
-        showCancelButton: true,
-        cancelButtonClass: "btn-danger",
-        confirmButtonClass: "btn-success",
-      },
-      function(isConfirm){
-        if(isConfirm)
-          window.location.href = "<?php echo URL ?>login";
-      }
-    );
-    })
-  </script> <?php
-}
-?>
