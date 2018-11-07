@@ -14,7 +14,16 @@
 			$sql="SELECT u.id_usuario, p.nombre, p.ap_p, p.ap_m
 						FROM persona p, usuario u
 						WHERE p.id_usuario=u.id_usuario
-						AND u.id_tipo_usuario=1
+						AND u.id_tipo_usuario=3
+						ORDER BY p.ap_p ASC";
+			$datos=$this->conexion->QueryResultado($sql);
+			return $datos;
+		}
+		public function getProfesors(){
+			$sql="SELECT u.id_usuario, p.nombre, p.ap_p, p.ap_m
+						FROM persona p, usuario u
+						WHERE p.id_usuario=u.id_usuario
+						AND u.id_tipo_usuario=2
 						ORDER BY p.ap_p ASC";
 			$datos=$this->conexion->QueryResultado($sql);
 			return $datos;
@@ -31,7 +40,7 @@
 			$sql="SELECT u.id_usuario, p.nombre, p.ap_p, p.ap_m
 						FROM persona p, usuario u
 						WHERE p.id_usuario=u.id_usuario
-						AND u.id_tipo_usuario=1
+						AND u.id_tipo_usuario=3
 						AND p.id_usuario='{$this->id}'
 						ORDER BY p.ap_p ASC";
 			$datos=$this->conexion->QueryResultado($sql);

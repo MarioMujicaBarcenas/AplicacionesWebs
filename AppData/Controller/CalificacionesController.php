@@ -13,6 +13,11 @@
 			$datos=$this->calificaciones->getAlumns();
 			return $datos;
 		}
+		function verR()
+		{
+			$datos=$this->calificaciones->getProfesors();
+			return $datos;
+		}
 
 		function eliminar($id){
 			$this->calificaciones->set("id",$id);
@@ -49,7 +54,7 @@
 			$this->calificaciones->updatePer();
 			?>
 			<script type="text/javascript">
-				
+
 			</script>
 			<?php
 		}

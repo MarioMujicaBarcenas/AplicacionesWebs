@@ -1,17 +1,18 @@
 <?php session_start(); ?>
+<script type="text/javascript">
+
+</script>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="<?php echo URL ?>home">TESVB</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <a class="navbar-brand"  href="<?php echo URL ?>home">TESVB</a>
   </button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <?php if(isset($_SESSION['id_tipo_usuario']) and ($_SESSION['id_tipo_usuario']==1 or $_SESSION['id_tipo_usuario']==2)){ ?>
+      <?php if(isset($_SESSION['id_tipo_usuario']) and ($_SESSION['id_tipo_usuario']==2 or $_SESSION['id_tipo_usuario']==3 or $_SESSION['id_tipo_usuario']==1)){ ?>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calificaciones</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="<?php echo URL ?>Calificaciones/ver">Ver</a>
-          <?php if($_SESSION['id_tipo_usuario']==2){ ?>
+          <?php if($_SESSION['id_tipo_usuario']==2 or $_SESSION['id_tipo_usuario']==1){ ?>
           <a class="dropdown-item" href="<?php echo URL ?>Calificaciones/Acentar">Acentar</a>
           <a class="dropdown-item" href="#">Modificar</a>
         <?php } ?>
@@ -28,7 +29,9 @@
         <div class="dropdown-menu" aria-labelledby="dropdown03">
           <a class="dropdown-item" href="#">Materia</a>
           <a class="dropdown-item" href="#">Grupo</a>
+          <?php if($_SESSION['id_tipo_usuario']==1){ ?>
           <a class="dropdown-item" href="#">Aprobacion</a>
+          <?php } ?>
         </div>
       </li>
       <li class="nav-item">
@@ -36,7 +39,7 @@
       </li>
     <?php } else { ?>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo URL; ?>login">Login</a>
+        <a class="nav-link " href="<?php echo URL; ?>login">Login</a>
       </li>
     <?php } ?>
     </ul>

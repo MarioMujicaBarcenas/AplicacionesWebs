@@ -53,7 +53,7 @@
 
 
 
-      <div class="form-group">
+      <div class=" col-md-12 form-group">
         <label for="id_tipo_usuario">Unidad</label>
         <select class="form-control" name="id_tipo_usuario">
           <option value="">Selecciona...</option>
